@@ -39,7 +39,7 @@ public class LRUCache<K,V> extends LinkedHashMap<K, V>{
 		studentMap.put("alice", 54);
 		studentMap.put("ram", 100);
 		
-		System.out.println(studentMap.get("Bob"));
+		System.out.println(studentMap.get("Bob"));//99 
 		
 		studentMap.put("singh", 12);
 		
